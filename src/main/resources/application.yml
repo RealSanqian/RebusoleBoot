@@ -6,3 +6,14 @@ my:
   max: ${random.int(10)}
   value: ${random.value}
   greeting: hi,i'm  ${my.name}
+
+
+spring:
+  profiles:
+    active: dev
+#server config
+  #server.port=8080
+
+  #freemarker config
+  # spring.freemarker.expose-request-attributes=true
+  # spring.freemarker.request-context-attribute=request
