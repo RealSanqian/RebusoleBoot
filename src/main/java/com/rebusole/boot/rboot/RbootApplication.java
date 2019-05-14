@@ -14,6 +14,8 @@ public class RbootApplication {
     public static void main(String[] args) {
         SpringApplication.run(RbootApplication.class, args);
     }
+
+
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
